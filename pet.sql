@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Время создания: Мар 10 2024 г., 09:07
+-- Время создания: Мар 10 2024 г., 09:22
 -- Версия сервера: 10.4.32-MariaDB
 -- Версия PHP: 8.2.12
 
@@ -20,6 +20,18 @@ SET time_zone = "+00:00";
 --
 -- База данных: `pet`
 --
+CREATE DATABASE IF NOT EXISTS `pet` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `pet`;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `meowmoew`
+--
+
+CREATE TABLE `meowmoew` (
+  `pspspspspsp` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
